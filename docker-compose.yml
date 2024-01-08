@@ -1,0 +1,17 @@
+services:
+  influxdb:
+    image: "influxdb"
+    volumes:
+      - /var/influxdb2:/var/lib/influxdb2 
+    ports:
+      - "8086:8086"
+  # grafana:
+  #   image: "grafana/grafana-oss"
+  #   volumes:
+  #     - /var/grafana:/var/lib/grafana
+  #   ports:
+  #     - "3000:3000"
+  # be-service:
+  #   image: "be-service"
+  #   ports:
+  #     - "9091:9091"

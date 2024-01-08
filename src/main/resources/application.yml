@@ -1,0 +1,16 @@
+influx:
+  url: http://192.168.50.128:8086
+  token: SnqV3Tk2HOjXGOzywFiv1h_Q3KoLsObt_C_PsZNNc-ecMYg_nq9RGgwcEj_eiUTSt6rEcAgjBNzl5sOyL8ODiQ==
+  org: khai
+  bucket: heartrate
+
+jetty:
+  host: "0.0.0.0"
+  port: 9091
+
+mqtt:
+  client: "backend"
+  topic: "heart.rate"
+  broker:
+    url: "tcp://192.168.50.128" 
+    port: 1883
