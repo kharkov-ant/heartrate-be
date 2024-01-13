@@ -11,7 +11,7 @@ Backend-equipment:
 * Raspberry PI4 (or cloud-based solution)
 
 Tech stack for server-side:
-* MQTT - Hive MQ. Can be installed in native mode (https://link-url-here.org](https://docs.hivemq.com/hivemq/latest/user-guide/install-hivemq.html) or as a part of docker-compose (in emulation mode, but it affects performance)
+* MQTT - ==Hive MQ==. Can be installed in native mode (https://link-url-here.org](https://docs.hivemq.com/hivemq/latest/user-guide/install-hivemq.html) or as a part of docker-compose (in emulation mode, but it affects performance)
 * DB - Influx DB (part of docker-compose)
 * Spring Boot
 * Apache Camel
