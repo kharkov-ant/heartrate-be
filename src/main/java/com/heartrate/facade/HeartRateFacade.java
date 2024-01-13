@@ -21,8 +21,11 @@ public class HeartRateFacade {
     @Autowired
     private BatchService batchService;
 
-    public void testMethod(Exchange exchange) {
-        log.info("Hello from facade {}", exchange);
+    /*
+     * This method can be potentially used if we want to sava data as a batch process
+     * instead of real time saving
+     */
+    public void batchProcessing(Exchange exchange) {
         batchService.processMessage(exchange.getMessage().getBody(String.class));
     }
 
