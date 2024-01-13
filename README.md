@@ -19,6 +19,7 @@ Tech stack for server side:
 Pre-requisites that must be installed on server side:
 * Java 17
 * Maven 3.9.3
+* Docker (https://docs.docker.com/desktop/install/linux-install/)
 
 Steps to run BE service:
 * clone git repository
@@ -34,11 +35,16 @@ Steps to run BE service:
   ```
   mvn spring-boot:run
   ```
-  or build a docker image and remove comments in the docker-compose file. In this case BE service will start as a part of docker compose
+  or build a docker image
+  ```
+  sudo docker build --tag be-service .
+  ```
+  and remove comments in the docker-compose file. In this case BE service will start as a part of docker compose
+  
   To start docker-compose run:
   ```
   docker compose up
-    ```
+  ```
 
 To visualize ECG in influx DB you can use this query:
 
