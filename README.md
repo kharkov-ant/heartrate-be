@@ -10,9 +10,13 @@ Client-equipment:
 Backend-equipment:
 * Raspberry PI4 (or cloud-based solution)
 
+*Pre-requisites for server-side:
+* Java 17
+* Maven 3.9.3
+
 Tech stack for server-side:
-* MQTT - ==Hive MQ==. Can be installed in native mode (https://link-url-here.org](https://docs.hivemq.com/hivemq/latest/user-guide/install-hivemq.html) or as a part of docker-compose (in emulation mode, but it affects performance)
-* DB - Influx DB (part of docker-compose)
+* MQTT - **Hive MQ**. Can be installed in native mode (https://link-url-here.org](https://docs.hivemq.com/hivemq/latest/user-guide/install-hivemq.html) or as a part of docker-compose (in emulation mode, but it affects performance)
+* DB - **Influx DB** (part of existing docker-compose)
 * Spring Boot
 * Apache Camel
 
