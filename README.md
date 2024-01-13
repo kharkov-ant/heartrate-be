@@ -10,7 +10,7 @@ Client-equipment:
 Backend-equipment:
 * Raspberry PI4 (or cloud-based solution)
 
-*Pre-requisites for server-side:
+Pre-requisites for server-side:
 * Java 17
 * Maven 3.9.3
 
@@ -19,6 +19,17 @@ Tech stack for server-side:
 * DB - **Influx DB** (part of existing docker-compose)
 * Spring Boot
 * Apache Camel
+
+  Steps to run BE service:
+  * clone git repository
+  * build project
+    ```
+    mvn clean package
+    ```
+  * run application from IDEA or via command
+    ```
+    java -jar target/heart-rate-0.0.1.jar
+    ```
 
 To visualize ECG in influx DB you can use this query:
 
