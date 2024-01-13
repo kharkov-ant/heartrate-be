@@ -1,6 +1,7 @@
 # heartrate-mvp
 
 This project contains all relevant configurations that are needed for building Heart Rate MVP.
+
 Client-equipment:
 * Arduino UNO https://arduino.ua/ru/prod2610-arduino-uno-r3-ch340
 * AD 8232 https://arduino.ua/ru/prod4139-modyl-ad8232-dlya-ekg
