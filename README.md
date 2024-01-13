@@ -20,24 +20,24 @@ Tech stack for server-side:
 * Spring Boot
 * Apache Camel
 
-  Steps to run BE service:
-  * clone git repository
-  * build project
-    ```
-    mvn clean package
-    ```
-  * run application from IDEA or via command
-    ```
-    java -jar target/heart-rate-0.0.1.jar
-    ```
-    or use mvn plugin
-    ```
-    mvn spring-boot:run
-    ```
-    or build a docker image and remove comments in the docker-compose file. In this case BE service will start as a part of docker compose
-    To start docker-compose run:
-    ```
-    docker compose up
+Steps to run BE service:
+* clone git repository
+* build project
+  ```
+  mvn clean package
+  ```
+* run the application from IDEA or via command
+  ```
+  java -jar target/heart-rate-0.0.1.jar
+  ```
+  or use mvn plugin
+  ```
+  mvn spring-boot:run
+  ```
+  or build a docker image and remove comments in the docker-compose file. In this case BE service will start as a part of docker compose
+  To start docker-compose run:
+  ```
+  docker compose up
     ```
 
 To visualize ECG in influx DB you can use this query:
