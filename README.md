@@ -19,7 +19,7 @@ Tech stack for server side:
 Pre-requisites that must be installed on server side:
 * Java 17
 * Maven 3.9.3
-* Docker (https://docs.docker.com/desktop/install/linux-install/)
+* Docker (https://docs.docker.com/engine/install/)
 
 Steps to run BE service:
 * clone git repository
